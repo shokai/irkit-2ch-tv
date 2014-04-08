@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'irkit'
 require 'nokogiri'
+require 'httparty'
 
 page = Nokogiri.parse HTTParty.get("http://bc2ch.net/").body
 
