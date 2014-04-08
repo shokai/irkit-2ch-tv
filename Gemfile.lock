@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    args_parser (0.2.0)
+    dnssd (2.0)
+    hashie (2.1.0)
+    httparty (0.13.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    irkit (0.0.7)
+      args_parser
+      dnssd
+      hashie
+      httparty
+      json
+    json (1.8.1)
+    mini_portile (0.5.3)
+    multi_xml (0.5.5)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  irkit
+  nokogiri
