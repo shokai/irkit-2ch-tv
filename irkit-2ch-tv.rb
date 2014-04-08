@@ -5,8 +5,8 @@ require 'httparty'
 
 page = Nokogiri.parse HTTParty.get("http://bc2ch.net/").body
 
-tr = page.xpath('//table[@class="sitetotal"]//td[@class="station"]')
-channels = tr.map{|i| i.text }
+td = page.xpath('//table[@class="sitetotal"]//td[@class="station"]')
+channels = td.map{|i| i.text }
 p channels
 ch = channels.first
 
