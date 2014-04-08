@@ -1,5 +1,7 @@
 # 2ch実況で一番勢いのあるチャンネルにTVを自動で合わせる
 
+- [橋本商会 » IRKitで一番2ch実況が盛り上がってるテレビチャンネルを追跡する](http://shokai.org/blog/archives/8834)
+
 
 ## しくみ
 [実況勢い観測](http://bc2ch.net/) -----> IRKit -----> TV
