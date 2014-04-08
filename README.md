@@ -1,11 +1,15 @@
 # 2ch実況で一番勢いのあるチャンネルにTVを自動で合わせる
 
+
+## しくみ
 [実況勢い観測](http://bc2ch.net/) -----> IRKit -----> TV
+
 
 ## 必要なもの
 - Ruby1.9以上
 - Mac OSX or Linux
 - [IRKit](http://getirkit.com/)
+
 
 ## Install Dependencies
 
@@ -19,6 +23,7 @@
 
 事前にIRKitで赤外線データを学習しておく。bc2chの局名に合わせる。
 
+    % irkit -help
     % irkit -get テレビ東京
     % irkit -get NHK総合
     % irkit -get NHK教育
